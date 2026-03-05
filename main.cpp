@@ -48,7 +48,7 @@ namespace danila {
   }
 }
 
-template<typename T>
+template<class T>
 void arrayToList(const T* arr, int size, BiList<T>** list) {
     danila::clear(list);
   
